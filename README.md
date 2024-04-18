@@ -64,6 +64,8 @@ https://www.ssk.or.jp/yoshiki/yoshiki_01_h30i.files/yoshiki07_03.docx
 FAQ:  
 https://www.ssk.or.jp/goshitsumon/online/online_09.html  
 
+### オンライン請求の電子証明書のダウンロード
+電子証明書発行通知書の「電子証明書取得に関する情報」に記載のリクエストIDとリファレンスID及び任意のパスワード（半角数字4桁）を入力すると、ダウンロードできる。  
   
 ## 4. オンライン資格確認について
   
