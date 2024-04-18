@@ -27,47 +27,24 @@ https://vendorons.service-now.com/nav_to.do?uri=%2Frequest_account
   
 ### 必要な情報
 1. 「医療機関等向け総合ポータルサイト」のログインID・PW  
-2. IP-VPNに接続する際の「ネットワークID・ネットワークパスワード」  
-3. 
+2. インターネット回線の「お客さまID」（ONUのラベルに書いてある「CAF + 数字10桁」）
+3. IP-VPNに接続する際に必要な、「オンライン請求ユーザ設定情報（回線接続に関する情報）」に記載されている「ネットワークID・ネットワークパスワード」  
   
 ### 必要なプログラム、電子証明書など
 1. IP-VPN に接続するにあたっての「自己署名証明書」（支払基金からダウンロードしたマニュアルに同梱）  
 2. 請求システムや資格確認システムに接続するための「認証局の電子証明書」。これは、IP-VPN で接続した「電子証明書ダウンロードサイト」からダウンロードする。  
-3. 顔認証付きカードリーダー装置について、医療機関等ベンダーから、ブラウザ拡張プラグイン（顔認証ライブラリ含む）のインストーラー（OQSFaceApp.zip）をもらう。  
-4. 「医療機関等ONS」から、ブラウザ拡張プラグイン（必須）OQSFaceApp.zip（delegate.crx 目視確認操作用アプリケーション・nopinauth.crx 顔認証用アプリケーション・pinauth.crx 暗証番号認証用アプリケーション） 、連携アプリケーション　OQSComApp.zip 、配信アプリケーション　OQSDistroApp.zip 、MPKIクライアント　CybertrustManagedPKIClient.zip を入手してインストールする。
+3. 「オンライン請求セットアッププログラム」を「電子証明書ダウンロードサイト」からダウンロードする。
+4. 「医療機関等ONS」に登録申請して、ログインして、ブラウザ拡張プラグイン（必須）OQSFaceApp.zip（delegate.crx 目視確認操作用アプリケーション・nopinauth.crx 顔認証用アプリケーション・pinauth.crx 暗証番号認証用アプリケーション） 、連携アプリケーション　OQSComApp.zip 、配信アプリケーション　OQSDistroApp.zip 、MPKIクライアント　CybertrustManagedPKIClient.zip を入手してインストールする。
   
-## 1. 関係のあるホームページ
+## 関係のあるホームページ
 1. 医療機関等総合ポータルサイト  
 https://iryohokenjyoho.service-now.com/csm?id=csm_index
-2. 社会保険支払基金  
+2. 社会保険支払基金の「オンライン請求」資料集  
 https://www.ssk.or.jp/seikyushiharai/online/index.html
-3. 「医療機関等ONS」:  
+3. 医療機関等総合ポータルサイトの「オンライン資格確認」資料集
+ttps://iryohokenjyoho.service-now.com/csm?id=kb_article_view&sysparm_article=KB0010259#sousa_01  
+4. 「医療機関等ONS」:  
 https://vendorons.service-now.com/  
-
-  
-## 2. 用意するもの
-1. インターネット回線（IP－VPNまたはISDNまたはIPsec＋IKE）  
-2. 回線の「お客さまID」（「CAF」+数字10桁）（ONUのラベルに書いてある）
-3. 「医療機関等向け総合ポータルサイト」のログインID・PW
-4. パソコン１台（オンライン請求用・オンライン資格確認用）  
-5. 「オンライン請求」のIP-VPNに接続する際の「ネットワークID・ネットワークパスワード」
-6. 「オンライン請求」の電子証明書  
-7. 「オンライン資格確認」の電子証明書
-  
-
-  
-## 3. オンライン請求について
-  
-### マニュアル一覧
-https://iryohokenjyoho.service-now.com/csm?id=kb_article_view&sysparm_article=KB0010259#sousa_01  
-  
-### オンライン請求のネットワーク
-対応回線の一覧:  
-https://www.ssk.or.jp/seikyushiharai/online/online_04.files/claimsys35.pdf  
-FAQ:  
-https://www.ssk.or.jp/goshitsumon/online/online_07.html  
-移転で「お客さまID」が変更されると、改めて「回線認証システム」での認証が必要。  
-「お客さまID」は、ONU 本体のシールに書いてある。  
   
 ### オンライン請求のIP-VPN のID・PW
 オンライン請求する際には、「ダイヤルアップ接続」で、つど、IP-VPN接続をする。  
