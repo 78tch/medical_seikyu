@@ -63,6 +63,10 @@ https://www.ssk.or.jp/yoshiki/yoshiki_01_h30i.files/yoshiki07_03.docx
 設定方法は「共通認証局ユーザーマニュアル」。  
 FAQ:  
 https://www.ssk.or.jp/goshitsumon/online/online_09.html  
+  
+### オンライン請求の「認証局の電子証明書」ダウンロードサイト
+https://www.cert.download.rece/R01CALoginScr.do
+ただしこれは、インターネット上ではなく、IP-VPN 網のなかにある。  
 
 ### オンライン請求の「認証局の電子証明書」のダウンロード
 電子証明書発行通知書の「電子証明書取得に関する情報」に記載のリクエストIDとリファレンスID及び任意のパスワード（半角数字4桁）を入力すると、ダウンロードできる。  
@@ -70,6 +74,8 @@ https://www.ssk.or.jp/goshitsumon/online/online_09.html
 「発行者」は「Online Billing NW Common Root CA」である。  
 ただし、パソコンが別々で２台ある場合は、各１台ごとに必要？  
 もしくは、１台のパソコンで、普段は「オンライン資格確認」パソコンとしておき、請求のときのみ「オンライン請求」につなぎ直す、か。  
+  
+
 
 ## 4. オンライン資格確認について
   
