@@ -18,10 +18,10 @@ https://cert.obn.managedpki.ne.jp/p/rcd
 9. 以上で、まずは「オンライン請求」ができる状態になった。
 10. 引き続いて、「オンライン資格確認」できるようにする。
 11. 「オンライン資格確認」のセットアップ資料に基づいて、Windows にユーザーを追加したり、「医療機関等ONS」から、ブラウザ拡張プラグイン（必須）「OQSFaceApp.zip」 、連携アプリケーション　「OQSComApp.zip」 、配信アプリケーション　「OQSDistroApp.zip」 、MPKIクライアント　「CybertrustManagedPKIClient.zip」を入手してインストールする。  
-「医療機関等ONS」:  
+12. 「医療機関等ONS」:  
 https://vendorons.service-now.com/  
-
-1. 「オンライン請求」と「オンライン資格確認」の２つがある。
+13. 「医療機関等ONS」登録申請:  
+https://vendorons.service-now.com/nav_to.do?uri=%2Frequest_account  
   
 ### 必要な情報
 1. 「医療機関等向け総合ポータルサイト」のログインID・PW  
