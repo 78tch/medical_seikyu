@@ -9,7 +9,7 @@ https://www.ssk.or.jp/seikyushiharai/online/index.html
   
 ## 2. 用意するもの
 1. インターネット回線（IP－VPNまたはISDNまたはIPsec＋IKE）  
-2. 回線の「お客さまID」（「CAF」+数字10桁）
+2. 回線の「お客さまID」（「CAF」+数字10桁）（ONUのラベルに書いてある）
 3. 「医療機関等向け総合ポータルサイト」のログインID・PW
 4. パソコン２台（オンライン請求用・オンライン資格確認用）  
 5. 「オンライン請求」のIP-VPNに接続する際のID・PW
@@ -28,7 +28,9 @@ https://iryohokenjyoho.service-now.com/csm?id=kb_article_view&sysparm_article=KB
 https://www.ssk.or.jp/seikyushiharai/online/online_04.files/claimsys35.pdf  
 FAQ:  
 https://www.ssk.or.jp/goshitsumon/online/online_07.html  
-  
+移転で「お客さまID」が変更されると、改めて「回線認証システム」での認証が必要。  
+「お客さまID」は、ONU 本体のシールに書いてある。  
+
 ### オンライン請求のIP-VPN のID・PW
 オンライン請求する際には、「ダイヤルアップ接続」で、つど、IP-VPN接続をする。  
 その際には、ID とパスワードが必要。  
