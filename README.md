@@ -16,8 +16,15 @@
 https://iryohokenjyoho.service-now.com/csm?id=kb_article_view&sysparm_article=KB0010259
 - 「②医療機関等ONS」資格確認端末等のセットアップに関する文書等、アプリケーション等の情報
 https://vendorons.service-now.com/sp?id=kb_article_view&sys_id=c8c53e911b1e6010d64633b5cc4bcb04
-- 「③」
+- 「③カードリーダーのベンダーのホームページ」の「本人認証用カードリーダーソフト」
 https://www.pfu.ricoh.com/caora/support/caora01/download/fm-material-2.html
+- 「④電子証明書等ダウンロードサイト」
+「電子証明書ダウンロードサイト」：  
+https://www.cert.download.rece/R01CALoginScr.do  
+「電子証明書発行申請サイト」：  
+https://cert.obn.managedpki.ne.jp/p/rcr  
+「電子証明書の取得サイト」：  
+https://cert.obn.managedpki.ne.jp/p/rcd  
 
 ## 流れ
 1. 「医療機関等向け総合ポータルサイト」にログインできるように申請し、ID・PWをもらう。
